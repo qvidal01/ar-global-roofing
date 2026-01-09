@@ -90,19 +90,25 @@ export default function ReviewsPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal to-charcoal text-white drop-shadow-lg">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
+        {/* Animated Background */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 left-10 w-96 h-96 bg-bronze-500 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        </div>
+
+        <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="display-lg mb-6">Customer Reviews</h1>
+            <h1 className="display-lg mb-6 text-white drop-shadow-lg">Customer Reviews</h1>
             <div className="flex justify-center items-center gap-2 mb-6">
               <div className="flex">
                 {[1, 2, 3, 4, 5].map((star) => (
-                  <Star key={star} className="h-8 w-8 text-gold fill-gold" />
+                  <Star key={star} className="h-8 w-8 text-gold fill-gold drop-shadow" />
                 ))}
               </div>
-              <span className="text-2xl font-bold text-gold">{averageRating.toFixed(1)}</span>
+              <span className="text-2xl font-bold text-gold drop-shadow">{averageRating.toFixed(1)}</span>
             </div>
-            <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">
+            <p className="text-xl mb-8 max-w-3xl mx-auto font-normal text-white drop-shadow-lg">
               Rated 4.9/5 stars from 250+ verified reviews. See why discerning homeowners choose AR Global Roofing.
             </p>
           </div>
