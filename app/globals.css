@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+/* CSS Variables */
+:root {
+  --background: #F8F6F3;
+  --foreground: #2B3338;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2B3338;
+    --foreground: #F8F6F3;
+  }
+}
+
+/* Tailwind Theme Configuration */
+@theme inline {
+  /* Custom Color Palette */
+  --color-charcoal-50: #f6f7f8;
+  --color-charcoal-100: #e1e4e7;
+  --color-charcoal-200: #c3c9cf;
+  --color-charcoal-300: #9ba4ad;
+  --color-charcoal-400: #6d7985;
+  --color-charcoal-500: #5B6770;
+  --color-charcoal-600: #4a5560;
+  --color-charcoal-700: #3d4751;
+  --color-charcoal-800: #2B3338;
+  --color-charcoal-900: #1a1f22;
+
+  --color-ivory-50: #ffffff;
+  --color-ivory-100: #F8F6F3;
+  --color-ivory-200: #f0ede8;
+  --color-ivory-300: #e8e3dc;
+  --color-ivory-400: #d9d2c8;
+  --color-ivory-500: #cbc1b4;
+
+  --color-forest-50: #f0fdfa;
+  --color-forest-100: #ccfbf1;
+  --color-forest-200: #99f6e4;
+  --color-forest-300: #5eead4;
+  --color-forest-400: #2dd4bf;
+  --color-forest-500: #14b8a6;
+  --color-forest-600: #0d9488;
+  --color-forest-700: #0f766e;
+  --color-forest-800: #115e59;
+  --color-forest-900: #134e4a;
+
+  --color-bronze-50: #fffbeb;
+  --color-bronze-100: #fef3c7;
+  --color-bronze-200: #fde68a;
+  --color-bronze-300: #fcd34d;
+  --color-bronze-400: #fbbf24;
+  --color-bronze-500: #f59e0b;
+  --color-bronze-600: #d97706;
+  --color-bronze-700: #b45309;
+  --color-bronze-800: #92400e;
+  --color-bronze-900: #78350f;
+
+  --color-sage-50: #f0fdf4;
+  --color-sage-100: #dcfce7;
+  --color-sage-200: #bbf7d0;
+  --color-sage-300: #86efac;
+  --color-sage-400: #4ade80;
+  --color-sage-500: #22c55e;
+  --color-sage-600: #16a34a;
+  --color-sage-700: #15803d;
+  --color-sage-800: #166534;
+  --color-sage-900: #14532d;
+
+  /* Typography - Font Families */
+  --font-family-serif: "Cormorant Garamond", Georgia, serif;
+  --font-family-sans: Inter, system-ui, sans-serif;
+  --font-family-display: "Libre Baskerville", Georgia, serif;
+
+  /* Typography - Font Sizes */
+  --font-size-display-xl: clamp(2.5rem, 5vw, 4rem);
+  --font-size-display-xl--line-height: 1.1;
+  --font-size-display-xl--letter-spacing: -0.02em;
+
+  --font-size-display-lg: clamp(2rem, 4vw, 3.5rem);
+  --font-size-display-lg--line-height: 1.15;
+  --font-size-display-lg--letter-spacing: -0.02em;
+
+  --font-size-display-md: clamp(1.75rem, 3.5vw, 3rem);
+  --font-size-display-md--line-height: 1.2;
+  --font-size-display-md--letter-spacing: -0.01em;
+
+  --font-size-headline-xl: clamp(1.5rem, 3vw, 2.5rem);
+  --font-size-headline-xl--line-height: 1.2;
+  --font-size-headline-xl--letter-spacing: -0.01em;
+
+  --font-size-headline-lg: clamp(1.25rem, 2.5vw, 2rem);
+  --font-size-headline-lg--line-height: 1.25;
+
+  --font-size-headline-md: clamp(1.125rem, 2vw, 1.5rem);
+  --font-size-headline-md--line-height: 1.4;
+
+  --font-size-body-lg: 1.125rem;
+  --font-size-body-lg--line-height: 1.6;
+
+  --font-size-body-md: 1rem;
+  --font-size-body-md--line-height: 1.6;
+
+  --font-size-body-sm: 0.875rem;
+  --font-size-body-sm--line-height: 1.5;
+
+  --font-size-caption: 0.75rem;
+  --font-size-caption--line-height: 1.4;
+
+  /* Spacing System */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+  --spacing-5xl: 8rem;
+
+  /* Breakpoints are automatically handled by Tailwind */
+  /* sm: 640px, md: 768px, lg: 1024px, xl: 1280px, 2xl: 1536px */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body-md);
+  line-height: var(--font-size-body-md--line-height);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Utility Classes */
+.display-xl {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-display-xl);
+  line-height: var(--font-size-display-xl--line-height);
+  letter-spacing: var(--font-size-display-xl--letter-spacing);
+}
+
+.display-lg {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-display-lg);
+  line-height: var(--font-size-display-lg--line-height);
+  letter-spacing: var(--font-size-display-lg--letter-spacing);
+}
+
+.display-md {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-display-md);
+  line-height: var(--font-size-display-md--line-height);
+  letter-spacing: var(--font-size-display-md--letter-spacing);
+}
+
+.headline-xl {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-headline-xl);
+  line-height: var(--font-size-headline-xl--line-height);
+  letter-spacing: var(--font-size-headline-xl--letter-spacing);
+}
+
+.headline-lg {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-headline-lg);
+  line-height: var(--font-size-headline-lg--line-height);
+}
+
+.headline-md {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-headline-md);
+  line-height: var(--font-size-headline-md--line-height);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix text wrapping - prevent narrow columns */
+p {
+  min-width: 200px;
+}
+
+.headline-md,
+.headline-lg,
+.headline-xl {
+  min-width: 200px;
+}
+
+/* Ensure max-width containers actually use their space */
+.max-w-3xl {
+  min-width: min(100%, 768px);
+}
+
+.max-w-4xl {
+  min-width: min(100%, 896px);
+}
