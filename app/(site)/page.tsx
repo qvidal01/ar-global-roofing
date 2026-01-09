@@ -378,7 +378,10 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="relative py-20 bg-gradient-to-r from-forest-600 via-forest-500 to-teal-500 text-ivory overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-forest-600 via-forest-500 to-teal-500 text-white overflow-hidden">
+        {/* Dark overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black/30"></div>
+
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-bronze-400 rounded-full blur-3xl animate-pulse"></div>
@@ -398,13 +401,13 @@ export default function HomePage() {
             <span className="text-white font-semibold text-sm">🎯 LIMITED TIME OFFER</span>
           </div>
 
-          <h2 className="text-headline-md mb-6 drop-shadow-lg">Ready to Protect Your Investment?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto font-normal drop-shadow">
+          <h2 className="text-headline-md mb-6 drop-shadow-lg text-white">Ready to Protect Your Investment?</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto font-normal drop-shadow text-white">
             Schedule a complimentary consultation and discover why discerning homeowners choose AR Global
           </p>
 
           {/* Value Props */}
-          <div className="flex flex-wrap justify-center gap-6 mb-8 text-ivory-100">
+          <div className="flex flex-wrap justify-center gap-6 mb-8 text-white">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
               <CheckCircle className="h-5 w-5" />
               <span>Free Roof Inspection</span>
@@ -429,7 +432,7 @@ export default function HomePage() {
             </Button>
             <a
               href="tel:+12145551234"
-              className="flex items-center space-x-2 text-white hover:text-ivory-100 transition-colors bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg border-2 border-white/30"
+              className="flex items-center space-x-2 text-white hover:text-white/90 transition-colors bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg border-2 border-white/30"
             >
               <Phone className="h-5 w-5" />
               <span className="text-lg font-semibold">(214) 555-1234</span>
@@ -437,7 +440,7 @@ export default function HomePage() {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm text-ivory-100">
+          <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm text-white drop-shadow">
             <div className="flex items-center gap-2">
               <Award className="h-4 w-4" />
               <span>Licensed & Insured</span>
