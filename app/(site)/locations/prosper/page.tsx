@@ -16,7 +16,7 @@ export default function ProsperLocationPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-ivory-100">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 text-bronze-400 mb-4">
@@ -180,7 +180,7 @@ export default function ProsperLocationPage() {
       </section>
 
       {/* Local Testimonials */}
-      <section className="py-20 bg-charcoal-800 text-ivory-100">
+      <section className="py-20 bg-charcoal-800 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="headline-xl text-ivory-100 mb-12 text-center">{cityName} Homeowners Love AR Global</h2>
@@ -206,7 +206,7 @@ export default function ProsperLocationPage() {
                     </div>
                     <p className="text-ivory-200 mb-4 italic">"{testimonial.quote}"</p>
                     <div>
-                      <div className="font-semibold text-ivory-100">{testimonial.author}</div>
+                      <div className="font-semibold text-white">{testimonial.author}</div>
                       <div className="text-sm text-ivory-300">{testimonial.neighborhood}, {cityName}</div>
                     </div>
                   </CardContent>
@@ -245,7 +245,7 @@ export default function ProsperLocationPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-forest-600 text-ivory-100">
+      <section className="py-20 bg-forest-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="display-md mb-6">Ready to Protect Your {cityName} Home?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

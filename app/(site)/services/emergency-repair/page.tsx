@@ -13,14 +13,14 @@ export default function EmergencyRepairPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-red to-charcoal text-ivory">
+      <section className="relative py-20 bg-gradient-to-br from-red to-charcoal text-white drop-shadow-lg">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-red rounded-full text-sm font-semibold mb-4 animate-pulse">
               24/7 Available
             </div>
             <h1 className="display-lg mb-6">Emergency Roof Repair</h1>
-            <p className="headline-md font-normal text-ivory mb-8">
+            <p className="headline-md font-normal text-white mb-8">
               Storm damage? Active leak? We provide immediate response and temporary protection when you need it most
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -88,7 +88,7 @@ export default function EmergencyRepairPage() {
 
             <div className="mt-12 bg-charcoal rounded-lg p-8 text-center">
               <h3 className="text-headline-lg mb-4">Don't Wait—Call Now</h3>
-              <p className="text-ivory mb-6">
+              <p className="text-white mb-6">
                 Delaying emergency repairs can lead to extensive water damage, mold growth, and structural issues.
                 Our team is standing by to help.
               </p>
@@ -260,7 +260,7 @@ export default function EmergencyRepairPage() {
       </section>
 
       {/* Emergency CTA */}
-      <section className="py-20 bg-red text-ivory">
+      <section className="py-20 bg-red text-white drop-shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <AlertCircle className="h-16 w-16 mx-auto mb-6 text-ivory" />
           <h2 className="text-headline-md mb-6">Roofing Emergency? We're Here to Help</h2>

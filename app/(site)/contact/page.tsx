@@ -113,7 +113,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory-100 overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -123,7 +123,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-              <span className="text-forest-300 font-semibold text-sm">✓ FREE CONSULTATION</span>
+              <span className="text-white font-semibold drop-shadow text-sm">✓ FREE CONSULTATION</span>
             </div>
             <h1 className="display-lg mb-6 drop-shadow-lg">Schedule Your Consultation</h1>
             <p className="headline-md font-normal text-ivory-200 drop-shadow">
@@ -387,7 +387,7 @@ export default function ContactPage() {
               {/* Emergency */}
               <Card className="bg-charcoal-800 text-ivory-100 border-charcoal-700">
                 <CardHeader>
-                  <CardTitle className="text-ivory-100">Emergency Service</CardTitle>
+                  <CardTitle className="text-white">Emergency Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-ivory-200 mb-4">

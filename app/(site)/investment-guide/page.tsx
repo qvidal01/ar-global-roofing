@@ -13,7 +13,7 @@ export default function InvestmentGuidePage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-ivory-100">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="display-lg mb-6">Investment Guide</h1>
@@ -299,7 +299,7 @@ export default function InvestmentGuidePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-green text-ivory">
+      <section className="py-20 bg-primary-green text-white drop-shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-headline-md mb-6">Get Your Custom Quote</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

@@ -92,7 +92,7 @@ export default function PortfolioPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory-100 overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -102,7 +102,7 @@ export default function PortfolioPage() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-              <span className="text-forest-300 font-semibold text-sm">5,000+ PROJECTS COMPLETED</span>
+              <span className="text-white font-semibold drop-shadow text-sm">5,000+ PROJECTS COMPLETED</span>
             </div>
             <h1 className="display-lg mb-6 px-4 drop-shadow-lg">Our Portfolio</h1>
             <p className="headline-md font-normal text-ivory-200 mb-8 px-4 drop-shadow">
@@ -155,7 +155,7 @@ export default function PortfolioPage() {
               <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="aspect-video bg-charcoal-200 relative overflow-hidden">
                   {/* Placeholder for project image */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-charcoal-700 to-charcoal-800 text-ivory-100">
+                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-charcoal-700 to-charcoal-800 text-white">
                     <div className="text-center">
                       <div className="text-4xl mb-2">📷</div>
                       <div className="text-sm">Project Image</div>
@@ -217,7 +217,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-forest-600 text-ivory-100">
+      <section className="py-20 bg-forest-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="display-md mb-6">Ready to Start Your Project?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

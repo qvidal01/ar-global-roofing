@@ -13,7 +13,7 @@ export default function AllenLocationPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-ivory-100">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 text-bronze-400 mb-4">
@@ -102,7 +102,7 @@ export default function AllenLocationPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-forest-600 text-ivory-100">
+      <section className="py-20 bg-forest-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="display-md mb-6">Ready to Protect Your Allen Home?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

@@ -80,7 +80,7 @@ export default function ServicesPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -90,10 +90,10 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-              <span className="text-forest-300 font-semibold text-sm">8 PREMIUM SERVICES</span>
+              <span className="text-white font-semibold drop-shadow text-sm">8 PREMIUM SERVICES</span>
             </div>
             <h1 className="display-lg mb-6 px-4 drop-shadow-lg">Premium Roofing Services</h1>
-            <p className="headline-md font-normal text-ivory mb-8 px-4 drop-shadow">
+            <p className="headline-md font-normal text-white mb-8 px-4 drop-shadow">
               From residential to commercial, we provide comprehensive roofing solutions backed by 20+ years of excellence
             </p>
             <Button
@@ -210,10 +210,10 @@ export default function ServicesPage() {
 
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-            <span className="text-forest-300 font-semibold text-sm">7-PHASE PROCESS</span>
+            <span className="text-white font-semibold drop-shadow text-sm">7-PHASE PROCESS</span>
           </div>
           <h2 className="text-headline-md mb-6 drop-shadow-lg">Our White-Glove Process</h2>
-          <p className="text-lg text-ivory mb-12 max-w-3xl mx-auto drop-shadow">
+          <p className="text-lg text-white mb-12 max-w-3xl mx-auto drop-shadow">
             Every project follows our proven 7-phase process designed to deliver exceptional results with zero stress
           </p>
           <div className="grid sm:grid-cols-3 lg:grid-cols-7 gap-4 max-w-6xl mx-auto mb-12">
@@ -228,7 +228,7 @@ export default function ServicesPage() {
             ].map((phase, index) => (
               <div key={index} className="bg-forest-500/10 border-2 border-forest-500/30 p-4 rounded-xl backdrop-blur-sm hover:border-forest-400 hover:scale-105 transition-all group">
                 <div className="text-bronze-400 font-bold text-lg mb-2 group-hover:text-bronze-300 transition-colors">{index + 1}</div>
-                <div className="text-sm text-ivory">{phase}</div>
+                <div className="text-sm text-white drop-shadow-lg">{phase}</div>
               </div>
             ))}
           </div>
@@ -244,7 +244,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-20 bg-gradient-to-r from-forest-600 via-forest-500 to-teal-500 text-ivory overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-forest-600 via-forest-500 to-teal-500 text-white overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-bronze-400 rounded-full blur-3xl animate-pulse"></div>

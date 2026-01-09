@@ -90,7 +90,7 @@ export default function ReviewsPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal to-charcoal text-ivory">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal to-charcoal text-white drop-shadow-lg">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="display-lg mb-6">Customer Reviews</h1>
@@ -141,7 +141,7 @@ export default function ReviewsPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-charcoal text-ivory">
+      <section className="py-20 bg-charcoal text-white drop-shadow-lg">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-headline-md mb-6">Trusted by Thousands</h2>
@@ -149,26 +149,26 @@ export default function ReviewsPage() {
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
             <div>
               <div className="text-5xl font-bold text-gold mb-2">5,000+</div>
-              <div className="text-ivory">Projects Completed</div>
+              <div className="text-white drop-shadow-lg">Projects Completed</div>
             </div>
             <div>
               <div className="text-5xl font-bold text-gold mb-2">98%</div>
-              <div className="text-ivory">Client Satisfaction</div>
+              <div className="text-white drop-shadow-lg">Client Satisfaction</div>
             </div>
             <div>
               <div className="text-5xl font-bold text-gold mb-2">20+</div>
-              <div className="text-ivory">Years in Business</div>
+              <div className="text-white drop-shadow-lg">Years in Business</div>
             </div>
             <div>
               <div className="text-5xl font-bold text-gold mb-2">4.9/5</div>
-              <div className="text-ivory">Average Rating</div>
+              <div className="text-white drop-shadow-lg">Average Rating</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-green text-ivory">
+      <section className="py-20 bg-primary-green text-white drop-shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-headline-md mb-6">Ready to Join Our Satisfied Customers?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

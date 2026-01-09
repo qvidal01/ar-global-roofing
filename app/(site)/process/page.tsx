@@ -86,7 +86,7 @@ export default function ProcessPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -96,10 +96,10 @@ export default function ProcessPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-              <span className="text-forest-300 font-semibold text-sm">7-PHASE WHITE-GLOVE PROCESS</span>
+              <span className="text-white font-semibold text-sm drop-shadow">7-PHASE WHITE-GLOVE PROCESS</span>
             </div>
-            <h1 className="text-headline-lg mb-6 drop-shadow-lg">Your AR Global Experience</h1>
-            <p className="headline-md font-normal text-ivory mb-8 drop-shadow">
+            <h1 className="text-headline-lg mb-6 text-white drop-shadow-lg">Your AR Global Experience</h1>
+            <p className="headline-md font-normal text-white mb-8 drop-shadow-lg">
               Our proven 7-phase process delivers exceptional results with zero stress
             </p>
           </div>

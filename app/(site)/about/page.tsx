@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory-100 overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 right-10 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full mb-6">
-              <span className="text-forest-300 font-semibold text-sm">20+ YEARS OF EXCELLENCE</span>
+              <span className="text-white font-semibold drop-shadow text-sm">20+ YEARS OF EXCELLENCE</span>
             </div>
             <h1 className="display-lg mb-6 drop-shadow-lg">Our Story</h1>
             <p className="headline-md font-normal text-ivory-200 drop-shadow">
@@ -178,7 +178,7 @@ export default function AboutPage() {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 bg-charcoal-800 text-ivory-100">
+      <section className="py-20 bg-charcoal-800 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="display-md mb-6">Certifications & Partnerships</h2>
@@ -201,7 +201,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-forest-600 text-ivory-100">
+      <section className="py-20 bg-forest-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="display-md mb-6">Experience the AR Global Difference</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

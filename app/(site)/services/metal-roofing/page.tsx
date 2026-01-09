@@ -13,14 +13,14 @@ export default function MetalRoofingPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal to-charcoal text-ivory">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal to-charcoal text-white drop-shadow-lg">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="inline-block px-4 py-2 bg-gold rounded-full text-sm font-semibold mb-4">
               Lifetime Investment
             </div>
             <h1 className="text-headline-lg mb-6">Metal Roofing Systems</h1>
-            <p className="headline-md font-normal text-ivory mb-8">
+            <p className="headline-md font-normal text-white mb-8">
               Energy-efficient metal roofing designed for Texas heat and severe weather with modern aesthetics and lifetime durability
             </p>
             <Button variant="primary" size="lg" asChild>
@@ -289,7 +289,7 @@ export default function MetalRoofingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gold text-ivory">
+      <section className="py-20 bg-gold text-white drop-shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-headline-md mb-6">Invest in a Lifetime Roof</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">

@@ -84,7 +84,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-ivory-100">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal-800 to-charcoal-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <Link
@@ -118,7 +118,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
       <section className="bg-charcoal-200">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="aspect-[21/9] bg-gradient-to-br from-charcoal-700 to-charcoal-800 flex items-center justify-center text-ivory-100">
+            <div className="aspect-[21/9] bg-gradient-to-br from-charcoal-700 to-charcoal-800 flex items-center justify-center text-white">
               <div className="text-center">
                 <div className="text-6xl mb-4">📷</div>
                 <div>Project Hero Image</div>
@@ -221,7 +221,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
       </section>
 
       {/* Client Testimonial */}
-      <section className="py-20 bg-charcoal-800 text-ivory-100">
+      <section className="py-20 bg-charcoal-800 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-6xl mb-6">"</div>
@@ -229,7 +229,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
               {project.testimonial.quote}
             </blockquote>
             <div>
-              <div className="font-semibold text-ivory-100">{project.testimonial.author}</div>
+              <div className="font-semibold text-white">{project.testimonial.author}</div>
               <div className="text-sm text-ivory-300">{project.testimonial.location}</div>
             </div>
           </div>
@@ -278,7 +278,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-forest-600 text-ivory-100">
+      <section className="py-20 bg-forest-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="display-md mb-6">Ready for Your Premium Roof?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto font-normal">
