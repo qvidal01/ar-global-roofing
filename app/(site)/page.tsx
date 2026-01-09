@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-charcoal via-charcoal-700 to-forest-900 text-ivory-100 overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-charcoal via-charcoal-700 to-forest-900 text-white overflow-hidden">
         {/* Animated Background Pattern */}
         <div className="absolute inset-0 z-0 opacity-10">
           <div className="absolute top-0 right-0 w-96 h-96 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -25,21 +25,21 @@ export default function HomePage() {
         {/* Trust Badge */}
         <div className="absolute top-24 right-8 z-20 hidden lg:block">
           <div className="bg-forest-500/20 backdrop-blur-sm border-2 border-forest-400 rounded-full p-6 text-center">
-            <div className="text-3xl font-bold text-forest-300">20+</div>
-            <div className="text-xs text-ivory-100">Years</div>
+            <div className="text-3xl font-bold text-white drop-shadow-lg">20+</div>
+            <div className="text-xs text-white drop-shadow">Years</div>
           </div>
         </div>
 
         <div className="container mx-auto px-4 md:px-6 lg:px-8 z-20 text-center relative">
           {/* Badge */}
           <div className="inline-block mb-6 px-6 py-2 bg-forest-500/20 backdrop-blur-sm border border-forest-400 rounded-full">
-            <span className="text-forest-300 font-semibold">★ 4.9/5 from 250+ Reviews</span>
+            <span className="text-white font-semibold drop-shadow">★ 4.9/5 from 250+ Reviews</span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-ivory px-4 drop-shadow-lg">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white px-4 drop-shadow-lg">
             The Last Roof Your Home Will Ever Need
           </h1>
-          <p className="headline-md mb-8 text-ivory max-w-3xl mx-auto font-normal px-4 drop-shadow">
+          <p className="headline-md mb-8 text-white max-w-3xl mx-auto font-normal px-4 drop-shadow-lg">
             Premium roofing craftsmanship for discerning homeowners who value peace of mind and generational quality
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -62,17 +62,17 @@ export default function HomePage() {
           </div>
 
           {/* Quick Contact Info */}
-          <div className="mt-8 flex flex-wrap justify-center gap-6 text-ivory-100">
+          <div className="mt-8 flex flex-wrap justify-center gap-6 text-white drop-shadow">
             <div className="flex items-center gap-2">
-              <Phone className="h-5 w-5 text-forest-400" />
+              <Phone className="h-5 w-5 text-white" />
               <span>(214) 555-1234</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-5 w-5 text-forest-400" />
+              <CheckCircle className="h-5 w-5 text-white" />
               <span>Licensed & Insured</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-forest-400" />
+              <Award className="h-5 w-5 text-white" />
               <span>A+ BBB Rating</span>
             </div>
           </div>
