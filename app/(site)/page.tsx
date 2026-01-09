@@ -288,7 +288,10 @@ export default function HomePage() {
       </section>
 
       {/* Social Proof Section */}
-      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-ivory overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-charcoal via-charcoal-800 to-forest-900 text-white overflow-hidden">
+        {/* Dark overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black/20"></div>
+
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 w-72 h-72 bg-forest-500 rounded-full blur-3xl animate-pulse"></div>
@@ -304,34 +307,34 @@ export default function HomePage() {
           {/* Stats Bar */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-4xl mx-auto text-center">
             <div className="group hover:scale-105 transition-transform">
-              <div className="bg-forest-500/10 border-2 border-forest-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-forest-400 transition-colors">
-                <div className="text-headline-sm text-bronze-400 mb-2 group-hover:text-bronze-300 transition-colors">20+</div>
-                <div className="text-ivory">Years in Business</div>
+              <div className="bg-white/10 border-2 border-white/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 hover:bg-white/15 transition-all">
+                <div className="text-headline-sm text-bronze-300 mb-2 group-hover:text-bronze-200 transition-colors drop-shadow-lg">20+</div>
+                <div className="text-white drop-shadow">Years in Business</div>
               </div>
             </div>
             <div className="group hover:scale-105 transition-transform">
-              <div className="bg-forest-500/10 border-2 border-forest-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-forest-400 transition-colors">
-                <div className="text-headline-sm text-bronze-400 mb-2 group-hover:text-bronze-300 transition-colors">5,000+</div>
-                <div className="text-ivory">Projects Completed</div>
+              <div className="bg-white/10 border-2 border-white/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 hover:bg-white/15 transition-all">
+                <div className="text-headline-sm text-bronze-300 mb-2 group-hover:text-bronze-200 transition-colors drop-shadow-lg">5,000+</div>
+                <div className="text-white drop-shadow">Projects Completed</div>
               </div>
             </div>
             <div className="group hover:scale-105 transition-transform">
-              <div className="bg-forest-500/10 border-2 border-forest-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-forest-400 transition-colors">
-                <div className="text-headline-sm text-bronze-400 mb-2 group-hover:text-bronze-300 transition-colors">98%</div>
-                <div className="text-ivory">Client Satisfaction</div>
+              <div className="bg-white/10 border-2 border-white/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 hover:bg-white/15 transition-all">
+                <div className="text-headline-sm text-bronze-300 mb-2 group-hover:text-bronze-200 transition-colors drop-shadow-lg">98%</div>
+                <div className="text-white drop-shadow">Client Satisfaction</div>
               </div>
             </div>
           </div>
 
           {/* Featured Reviews */}
           <div className="text-center mb-12">
-            <h2 className="text-headline-md text-ivory mb-4">What Our Clients Say</h2>
+            <h2 className="text-headline-md text-white mb-4 drop-shadow-lg">What Our Clients Say</h2>
             <div className="flex justify-center mb-4">
               {[1, 2, 3, 4, 5].map((star) => (
-                <Star key={star} className="h-6 w-6 text-gold fill-gold" />
+                <Star key={star} className="h-6 w-6 text-gold fill-gold drop-shadow" />
               ))}
             </div>
-            <p className="text-ivory">Rated 4.9/5 from 250+ reviews</p>
+            <p className="text-white drop-shadow">Rated 4.9/5 from 250+ reviews</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
